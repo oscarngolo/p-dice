@@ -1,0 +1,25 @@
+body{
+  background-color:blue;
+}
+.jumbotron{
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 30px;
+}
+.button{
+  display: block;
+  margin-top: 20px;
+  font-family: 'Patrick Hand', cursive;
+}
+p{
+  font-family: 'Patrick Hand', cursive;
+}
+.category {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+span{
+  font-size: 60px;
+}
