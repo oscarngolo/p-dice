@@ -1,5 +1,6 @@
 body {
-  background-image: url(https://thumbs.dreamstime.com/b/people-network-map-red-data-connections-clip-available-multiple-colors-loops-seamlessly-74036836.jpg);
+  background-image: url(https://a57.foxnews.com/a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/12/640/320/1862/1048/dice-istock.jpg?ve=1&tl=1?ve=1&tl=1);
+    font-family: 'Quicksand', sans-serif;
 }
 .page{
     width: 1000px;
@@ -18,8 +19,8 @@ body {
     height: 600px;
     padding: 100px;
     position: relative;
-}.jumbotron{
-
+}
+.jumbotron{
   margin-top: 30px;
 
 }
@@ -53,7 +54,7 @@ body {
     margin-bottom: 10px;
     position: absolute;
     top:150px;
-    color: #030348;
+    color: blue;
     font-family: 'Lobster', cursive;
 }
 .player-name#name-0 {
@@ -71,7 +72,9 @@ body {
     color: black;
     margin-bottom: 250px;
 }
-
+.active {
+  font-size: 20px;
+}
 .active .player-name {
   font-weight: 300;
 }
@@ -91,7 +94,7 @@ body {
     right: 10px;
 }
 .player-current-box {
-    color: white;
+    color: #030348;
     width: 40%;
     margin: 0 auto;
     text-align: center;
@@ -157,6 +160,6 @@ button:hover {
   background-color: blue;
 }
 .winner .player-name {
-  font-weight: 300; color: black;
+  font-weight: 300;
+  color: blue;
 }
-
