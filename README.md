@@ -15,40 +15,13 @@ This is a two-player die game where each player is given a chance to roll the di
 ## Setup/Installation Requirements
 To start using this project use the following commands:
 
-git clone https://github.com/swanapole/p-dice.git
-cd pig-dice
-atom .
-code . (this is if Visual Studio Code is your preferred text editor)
+-git clone https://github.com/swanapole/p-dice.git
+-cd pig-dice
+-atom .
+-code . (this is if Visual Studio Code is your preferred text editor)
 ## Behavior Driven Development
-The program should hide the introductory part and show the game when the START button is clicked:
-
-Input Example: Click START button
-
-Output Example: Hide Introductory part, Show Game
-
-The program should return any number between 1-6 when ROLL DIE button is clicked:
-
-Input Example: Click ROLL DIE button
-
-Output Example: 6
-
-The program should return sum score when HOLD button is clicked:
-
-Input Example: Click HOLD button
-
-Output Example: score += roundScore
-
-The program should reload game when NEW GAME button is clicked:
-
-Input Example: Click NEW GAME button
-
-Output Example: Initialize game with init() function
-
-The program should shift to next player when a 1 is returned:
-
-Input Example: 1 is returned
-
-Output Example: Shift to next player with nextPlayer() function
+-the application requires the user to roll and hold the dice 
+-the application determines the winner
 
 ## Link to Live Website
 http://swanapole.github.io/p-dice/
