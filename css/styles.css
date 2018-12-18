@@ -1,6 +1,5 @@
 body {
   background-image: url(https://a57.foxnews.com/a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/12/640/320/1862/1048/dice-istock.jpg?ve=1&tl=1?ve=1&tl=1);
-    font-family: 'Quicksand', sans-serif;
 }
 .page{
     width: 1000px;
@@ -138,12 +137,12 @@ button:hover {
   font-family: 'Lobster', cursive;
 }
 .btn-roll {
-  top: 500px;
+  top: 600px;
   font-family: 'Lobster', cursive;
 
 }
 .btn-hold {
-  top: 500px;
+  top: 600px;
   font-family: 'Lobster', cursive;
 }
 .winner {
