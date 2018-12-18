@@ -73,9 +73,6 @@ body {
     color: black;
     margin-bottom: 250px;
 }
-.active {
-  background-color: blue;
-}
 .active .player-name {
   font-weight: 300;
 }
