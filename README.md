@@ -1,5 +1,7 @@
 ## Pig Dice Game
-This is a two-player die game, 18th december 2018 By swanapole shilla
+This is a two-player die game,
+18th december 2018 
+By swanapole shilla
 
 ## Description
 This is a two-player die game where each player is given a chance to roll the die and gain scores from the number on the die. A player is allowed to hold their chance and pass it on to the next player or continue rolling the die.
