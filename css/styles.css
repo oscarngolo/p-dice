@@ -1,25 +1,165 @@
-body{
-  background-color:blue;
+body {
+  background-image: url(https://a57.foxnews.com/a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/12/640/320/1862/1048/dice-istock.jpg?ve=1&tl=1?ve=1&tl=1);
+    font-family: 'Quicksand', sans-serif;
+}
+.page{
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius:15px;
+}
+.player-0-panel, .player-1-panel {
+    width: 50%;
+    float: left;
+    height: 600px;
+    padding: 100px;
+    position: relative;
 }
 .jumbotron{
-  margin-left: 120px;
-  margin-right: 120px;
+
+  margin-top: 30px;
+
+}
+#begin{
+  border-radius: 30px;
+  font-family: 'Lobster', cursive;
+}
+#begin .btn{
+  background-color: blue;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+#home{
+  display:none;
+}
+#begin.jumbotron{
+  border-radius: 20px;
   margin-top: 30px;
 }
-.button{
-  display: block;
-  margin-top: 20px;
-  font-family: 'Patrick Hand', cursive;
+
+
+.player-name {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: absolute;
+    top:150px;
+    color: #030348;
+    font-family: 'Lobster', cursive;
 }
-p{
-  font-family: 'Patrick Hand', cursive;
+.player-name#name-0 {
+    left:50px;
+    margin-top: 60PX;
 }
-.category {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px;
+.player-name#name-1 {
+    right:50px;
+    margin-top: 60px;
 }
-span{
-  font-size: 60px;
+.player-score {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: black;
+    margin-bottom: 250px;
+}
+.active {
+  background-color: blue;
+}
+.active .player-name {
+  font-weight: 300;
+}
+.active .yourturn {
+    width: 35px;
+    height: 34px;
+    background-size: 35px 34px;
+    position: absolute;
+    color: #EB4D4D;
+}
+.active.player-0-panel .yourturn {
+    top: 10px;
+    left: 10px;
+}
+.active.player-1-panel .yourturn {
+    top: 10px;
+    right: 10px;
+}
+.player-current-box {
+    color: #030348;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.player-current-label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'Lobster', cursive;
+
+}
+.player-current-score {
+    font-size: 30px;
+}
+button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 300;
+}
+button:hover {
+  opacity: 0.9;
+}
+.btn {
+    display: inline-block;
+    margin: 0;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;;
+    background-color:blue;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.btn-new {
+  bottom: 23px;
+  font-family: 'Lobster', cursive;
+}
+.btn-roll {
+  top: 403px;
+  font-family: 'Lobster', cursive;
+
+}
+.btn-hold {
+  top: 467px;
+  font-family: 'Lobster', cursive;
+}
+.dice {
+    position: absolute;
+    left: 50%;
+    top: 178px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+.winner {
+  background-color: #999;
+}
+.winner .player-name {
+  font-weight: 300; color: #fff;
 }

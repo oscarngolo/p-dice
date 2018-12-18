@@ -1,48 +1,51 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel= "stylesheet" type="text/css">
-    <link href="css/styles.css" rel= "stylesheet" type="text/css">
-    <script src="js/scripts.js" type="text/javascript"></script>
-    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
-    <title>pig-dice</title>
-  </head>
-  <body>
-    <div id="intro">
-    <center>
-    <div class="jumbotron">
-    <h1>Pig-dice game</h1>
-    <p>Here is something to juggle your mind,make sure to give the next player a chance after every turn to ensure you do not get a zero</P>
-    <img src="https://media1.giphy.com/media/l4hLAf6Eo8DEcO5ZS/200w.webp?cid=3640f6095c1251d85342353451aa4425">
-
-  </center>
-  <button type="button" class="start">Start</button>
-</div>
-</div>
-   <div id="home">
-    <div class="container">
-        <div class="row">
-      <div class="category">
-      <h2>player A</h2>
-      <p>
-        current score<br>
-        <span>0</span>
-      </p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <title>Pig Dice Game</title>
+</head>
+<body>
+  <div class="container">
+    <div id="begin">
+      <div class="jumbotron">
+        <center>
+        <h1 class="page-header">Pig-Dice-Game</h1>
+        <p class="text-center">Here is some thing to juggle your mind.It test on certain skills,are you greedy as a pig or are you patient and ambitious as the game,make sure to be a winner but also give the other play</p>
+        <img src="https://cdn.pixabay.com/photo/2016/03/31/19/19/dice-1294902__340.png"><br>
+        <button class="btn btn-start">Start</button>
+      </center>
+      </div>
     </div>
-    <div class="category">
-    <h2>player B</h2>
-    <p>
-      current score<br>
-    <span>0</span>
-  </p>
-  </div>
-  <button type="button" name="button">Roll</button>
-  <button type="button" name="button">Hold</button>
-  <button type="button" name="button">Start Game</button>
-</div>
+      <div class="page" id="home">
+          <div class="player-0-panel active">
+              <div class="yourturn"></div>
+              <div class="player-name" id="name-0">Player A</div>
+              <div class="player-score" id="score-0">0</div>
+              <div class="player-current-box">
+                  <div class="player-current-label">Current score</div>
+                  <div class="player-current-score" id="current-0">0</div>
+              </div>
+          </div>
+          <div class="player-1-panel">
+              <div class="yourturn"></div>
+              <div class="player-name" id="name-1">Player B</div>
+              <div class="player-score" id="score-1">0</div>
+              <div class="player-current-box">
+                  <div class="player-current-label">Current score</div>
+                  <div class="player-current-score" id="current-1">0</div>
+              </div>
+          </div>
+          <button class="btn btn-new">New game</button>
+          <button class="btn btn-roll">Roll die</button>
+          <button class="btn btn-hold">Hold</button>
 
-</div>
-</div>
-  </body>
+    </div>
+
+  </div>
+</body>
 </html>
