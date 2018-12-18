@@ -4,10 +4,12 @@
 
 -18th december 2018
 
--By swanapole shilla
+## By 
+swanapole shilla
 
 ## Description
--This is a two-player die game where each player is given a chance to roll the die and gain scores from the number on the die. A player is allowed to hold their chance and pass it on to the next player or continue rolling the die.
+-This is a two-player die game where each player is given a chance to roll the die and gain scores from the number on the die.
+-A player is allowed to hold their chance and pass it on to the next player or continue rolling the die.
 
 ## image
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ZKGiZKPH1TWRxxBQNWLY5YDZt4wOnGd7QM59ItNMHgag3zFB">
