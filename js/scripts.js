@@ -37,7 +37,7 @@ $(document).ready(function(){
 		init();
 	});
 
-	$('.btn-new').click(function(){
+	$('.btn-game').click(function(){
 		init();
 	});
 	$('.btn-roll').click(function(){
