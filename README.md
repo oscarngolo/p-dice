@@ -1,16 +1,18 @@
-
-Pig Dice Game
+## Pig Dice Game
 This is a two-player die game, 18th december 2018 By swanapole shilla
 
-Description
+## Description
 This is a two-player die game where each player is given a chance to roll the die and gain scores from the number on the die. A player is allowed to hold their chance and pass it on to the next player or continue rolling the die.
 
-Setup/Installation Requirements
+## Installation Requirements
 To start using this project use the following commands:
 
-git clone https://github.com/swanapole/p-dice.git cd pig-dice atom . code . (this is if Visual Studio Code is your preferred text editor)
+git clone https://github.com/swanapole/p-dice.git 
+cd pig-dice 
+atom . 
+code .
 
-Behavior Driven Development
+## Behavior Driven Development
 The program should hide the introductory part and show the game when the START button is clicked:
 
 Input Example: Click START button
@@ -41,10 +43,10 @@ Input Example: 1 is returned
 
 Output Example: Shift to next player with nextPlayer() function
 
-Link to Live Website
+## Link to Live Website
 http://swanapole.github.io/p-dice/
 
-License
+## License
 MIT License
 
 Copyright (c) 2018 Maryann Gitonga
